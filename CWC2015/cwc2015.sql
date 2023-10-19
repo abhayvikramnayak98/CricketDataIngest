@@ -23,7 +23,7 @@ team1_rec as (select
 	sum(case when team1 = winner then 1 else 0 end) as wins, 
     sum(case when winner = 'NR' then 1 else 0 end) as nr
 from
-cricketdb.cwc2011stats
+cricketdb.cwc2015stats
 group by team1),
 team2_rec as (select 
 	team2 as team, 
@@ -31,7 +31,7 @@ team2_rec as (select
 	sum(case when team2 = winner then 1 else 0 end) as wins, 
     sum(case when winner = 'NR' then 1 else 0 end) as nr
 from
-cricketdb.cwc2011stats
+cricketdb.cwc2015stats
 group by team2),
 total_matches as (select * from team1_rec union all select * from team2_rec),
 allMatchStats as (select team, sum(total) as total, sum(wins) as wins, sum(nr) as nr from total_matches group by team)
