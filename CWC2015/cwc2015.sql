@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS CWC2015Stats (
     venue VARCHAR(20)
 );
 
--- After importing data by Data Import Wizard, check whether all the data has been imported or not.
+-- Import the data from the given CSV file to SQL database using Data Import Wizard. After importing data, check whether all the data has been imported or not.
 select * from CWC2015Stats LIMIT 5;
 
 -- Now creating points table
