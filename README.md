@@ -1,6 +1,6 @@
 # Cricket World Cup Points Table Project
 
-This project involves data ingestion from CSV files, web scraping using Python, and the calculation of points tables for the ICC Cricket World Cup matches (including groups & qualifiers) for the years <b>2011-2019</b>. The project is organized into three directories, one for each World Cup year, and includes the following files:
+This project involves data ingestion from CSV files, web scraping using Python, and the calculation of points tables for the ICC Cricket World Cup matches (including groups & qualifiers) for the years <b>2011-2023</b> (recently included). The project is organized into three directories, one for each World Cup year, and includes the following files:
 
 ## Directory Structure
 
@@ -20,12 +20,17 @@ This project involves data ingestion from CSV files, web scraping using Python, 
 │   ├── matches2019.py (Web Scraping)
 │   ├── cwc2019.sql (Data Ingestion & Points Table Calculation Using SQL)
 │   ├── cwc2019stats.ipynb (Points Table Calculation Using Pandas)
+├── CWC2023/
+│   ├── icc_world_cup_2023.csv
+│   ├── matches2023.py (Web Scraping)
+│   ├── cwc2023.sql (Data Ingestion & Points Table Calculation Using SQL)
+│   ├── cwc2023stats.ipynb (Points Table Calculation Using Pandas)
 ├── README.md
 ```
 
 ## Project Overview
 
-This project focuses on creating a points table for the Cricket World Cup for three different years - 2011, 2015, and 2019. The project can be broken down into the following major components:
+This project focuses on creating a points table for the Cricket World Cup for 2011, 2015, 2019 & 2023. The project can be broken down into the following major components:
 
 1. **Data Ingestion:** The project begins with data ingestion from CSV files (icc_world_cup_*.csv) containing information about matches played during the respective World Cup years. The data from these CSV files is loaded into an SQL database using the SQL scripts provided in the "cwc*.sql" files.
 
@@ -46,6 +51,8 @@ To get started with this project, follow these steps:
 3. Run the SQL script (e.g., "cwc2011.sql") to ingest data from the CSV file and calculate the points table using SQL.
 
 4. Optionally, you can explore the Jupyter Notebook (e.g., "cwc2011stats.ipynb") to see how the points table can be calculated using Pandas.
+
+### NOTE: As the ICC Mens' Cricket World Cup 2023 has come to an end, so, we have included the stats and the project files for the 2023 World Cup in the project.
 
 ## Credits
 
