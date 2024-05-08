@@ -56,6 +56,6 @@ To get started with this project, follow these steps:
 
 ## Credits
 
-This project was created by [Abhisekh Nayak](https://linktr.ee/abhisekhnayak98) and is inspired by the love of cricket and the desire to analyze and visualize World Cup match data.
+This project was created by [Abhisekh Nayak](https://abhiresumeweb.web.app/) and is inspired by the love of cricket and the desire to analyze and visualize World Cup match data.
 
 If you have any questions or suggestions, please feel free to contact [Email](mailto:abhinayak.gita2016@gmail.com). We hope you find this project helpful and insightful for cricket enthusiasts and data analysis enthusiasts alike!
